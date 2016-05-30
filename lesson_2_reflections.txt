@@ -6,3 +6,20 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 -you can move things into and out of the staging area before comitting it
  to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-by using git diff
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+-when creating a nwe version
+ the main program is not changed, or is changed independently
+
+How do the diagrams help you visualize the branch structure?
+-They help to visualize the change history and flow.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+- All the changes are added to both files.  It's represented in the diagram to
+  visually see what is happening
+
